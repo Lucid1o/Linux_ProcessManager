@@ -1,0 +1,33 @@
+[
+  {
+    "id": "high_memory_duration",
+    "name": "High Memory Usage",
+    "condition_type": "memory_percent",
+    "threshold": 25.0,
+    "duration_seconds": 300,
+    "severity": "warning",
+    "message_template": "{app} has been using high memory ({value}%) for an extended period.",
+    "suggestion": "Consider closing unused tabs or restarting the application to free up memory."
+  },
+  {
+    "id": "high_cpu_duration",
+    "name": "High CPU Consumption",
+    "condition_type": "cpu_percent",
+    "threshold": 80.0,
+    "duration_seconds": 120,
+    "severity": "warning",
+    "message_template": "{app} has been consuming high CPU ({value}%) for over {duration}.",
+    "suggestion": "Review active tasks or background processes within this application."
+  },
+  {
+    "id": "zombie_process_detected",
+    "name": "Zombie Process Alert",
+    "condition_type": "process_state",
+    "target_state": "Z",
+    "threshold": 0.0,
+    "duration_seconds": 0,
+    "severity": "critical",
+    "message_template": "Zombie process detected: {app} (PID {pid}) is defunct and cannot be reclaimed by its parent.",
+    "suggestion": "Inspect parent process health or terminate the parent process to clean up zombie slots."
+  }
+]
