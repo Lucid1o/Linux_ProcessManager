@@ -1,0 +1,9 @@
+Name:	zombie_test
+State:	Z (zombie)
+Tgid:	600
+Pid:	600
+PPid:	500
+Uid:	1000	1000	1000	1000
+VmRSS:	0 kB
+VmSwap:	0 kB
+Threads:	0

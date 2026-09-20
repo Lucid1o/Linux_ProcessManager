@@ -1,0 +1,9 @@
+Name:	chrome
+State:	R (running)
+Tgid:	501
+Pid:	501
+PPid:	500
+Uid:	1000	1000	1000	1000
+VmRSS:	153600 kB
+VmSwap:	0 kB
+Threads:	12

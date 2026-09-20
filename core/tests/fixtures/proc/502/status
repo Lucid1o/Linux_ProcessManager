@@ -1,0 +1,9 @@
+Name:	chrome
+State:	S (sleeping)
+Tgid:	502
+Pid:	502
+PPid:	501
+Uid:	1000	1000	1000	1000
+VmRSS:	51200 kB
+VmSwap:	0 kB
+Threads:	4
