@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Pulse
+GenericName=System & Application Manager
+Comment=Modern application-centric process and system monitor for Linux
+Exec=pulse
+Icon=utilities-system-monitor
+Terminal=false
+Type=Application
+Categories=System;Monitor;
+Keywords=process;task;manager;system;monitor;cpu;memory;kill;pulse;
+StartupNotify=true
